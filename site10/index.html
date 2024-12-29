@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        /* Child selector */
+        div > h1 {
+            background-color: red; /*only for direct child p of div*/
+        }
+        /* Decendant selector */
+        div p {
+            background-color: yellow;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        hi
+        <h1>
+            hello
+        </h1>
+    </div>
+    <div>hi2
+        <article>
+            <p>
+                hello2
+            </p>
+        </article>
+    </div>
+</body>
+</html>

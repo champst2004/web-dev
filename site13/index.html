@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS specificity</title>
+    <style>
+        * {
+            color: green;
+        }
+        #h11 {
+            color: black;
+        }
+        .red {
+            color: red;
+        }
+        .yellow {
+            color: yellow;
+        }
+        [data=a]{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: blue;" id="h11" class="red yellow" data="a">this is h1</h1>
+    <article>Inline Style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector</article>
+    !important overwrites everything
+</body>
+</html>

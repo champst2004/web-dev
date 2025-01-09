@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Playwrite+AU+VIC+Guides&family=Rubik+Vinyl&display=swap');
+
+body {
+    background-color: grey;
+}
+
+.card {
+    background-color: white;
+    height: 430px;
+    width: 300px;
+    border-radius: 12px;
+}
+
+.image {
+    padding: 10px;
+}
+
+.image img {
+    border-radius: 12px;
+}
+
+.content {
+    padding: 10px;
+}
+
+.content p {
+    font-family: "Playwrite AU VIC Guides", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.capsules {
+    padding: 0 85px;
+}
+
+.capsules span {
+    padding: 5px;
+    border: 2px solid pink;
+    border-radius: 8px;
+}
+
+h2 {
+    margin: 10px;
+}
+.button{
+    text-align: center;
+    button{
+        padding: 3px;
+        border-radius: 10px;
+        background-color: rgb(185, 185, 236);
+        margin-top: 3px;
+        cursor: pointer;
+    }
+}

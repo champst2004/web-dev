@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            border: 2px solid red;
+            display: flex;
+            height: 80vh;
+            /* justify-content: center;  x axis (main axis) */
+            align-items: center; /* y axis(cross axis) */
+            /* flex-direction: column; */
+            flex-wrap: wrap; /*prevents overflow*/
+            align-content: center; /* more than 1 lines*/
+            /* gap,row-gap,column-gap for gaps */
+        }
+        .box{
+            height: 90px;
+            width: 90px;
+            border: 2px solid black;
+            margin: 4px;
+            background-color: violet;
+        }
+        /* we can assign order: 1,2,3 for element. lowest order comes first default order is 0  */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

@@ -5,10 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>grid</title>
     <style>
-        
+        .container{
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: [first]100px [second]120px;
+            grid-template-rows: 100px 100px 100px;
+        }
+        .item{
+            border: 2px solid red;
+            height: 55px;
+            width: 55px;
+        }
+        .item1{
+            grid-row: 1/2;
+            grid-column: 1/2; /*start/end*/
+        }
+        .item4{
+            grid-row: 1/2;
+            grid-column: first/second;
+        }
+
     </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="item item1">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item item4">4</div>
+        <div class="item">5</div>
+    </div>
 </body>
 </html>

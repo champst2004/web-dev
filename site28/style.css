@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+nav{
+    background-color: pink;
+    height: 50px;
+}
+main{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.container{
+    background-color: green;
+    margin: 0px 20px;
+    text-align: center;
+}
+.box{
+    height: 70vh;
+    width: 40%;
+    display: inline-block;
+    margin: 20px 10px;
+}
+.box1{
+    background-color: palevioletred;
+}
+.box2{
+    background-color: blue;
+}
+.text{
+    padding: 10px;
+    border: 3px solid white;
+    margin: 10px 34vw;
+    font-size: 1.2em;
+    border-radius: 15px;
+}
+.logo{
+    height: 20px;
+    width: 20px;
+    background-color: orange;
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+    border-radius: 50px;
+
+}
+footer{
+    background-color: red;
+    height: 100px;
+}
